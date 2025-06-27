@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7841442F2E0C3C28005F57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784144192E0C3C26005F57CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784144202E0C3C26005F57CE;
+			remoteInfo = LLMtest;
+		};
+		784144392E0C3C28005F57CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784144192E0C3C26005F57CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784144202E0C3C26005F57CE;
+			remoteInfo = LLMtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		781DA66C2E0D128700694077 /* ggml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ggml.h; sourceTree = "<group>"; };
+		781DA66D2E0D128700694077 /* ggml-alloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-alloc.h"; sourceTree = "<group>"; };
+		781DA66E2E0D128700694077 /* ggml-backend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-backend.h"; sourceTree = "<group>"; };
+		781DA66F2E0D128700694077 /* ggml-blas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-blas.h"; sourceTree = "<group>"; };
+		781DA6702E0D128700694077 /* ggml-cann.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-cann.h"; sourceTree = "<group>"; };
+		781DA6712E0D128700694077 /* ggml-cpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-cpp.h"; sourceTree = "<group>"; };
+		781DA6722E0D128700694077 /* ggml-cpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-cpu.h"; sourceTree = "<group>"; };
+		781DA6732E0D128700694077 /* ggml-cuda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-cuda.h"; sourceTree = "<group>"; };
+		781DA6742E0D128700694077 /* ggml-kompute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-kompute.h"; sourceTree = "<group>"; };
+		781DA6752E0D128700694077 /* ggml-metal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-metal.h"; sourceTree = "<group>"; };
+		781DA6762E0D128700694077 /* ggml-opencl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-opencl.h"; sourceTree = "<group>"; };
+		781DA6772E0D128700694077 /* ggml-opt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-opt.h"; sourceTree = "<group>"; };
+		781DA6782E0D128700694077 /* ggml-rpc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-rpc.h"; sourceTree = "<group>"; };
+		781DA6792E0D128700694077 /* ggml-sycl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-sycl.h"; sourceTree = "<group>"; };
+		781DA67A2E0D128700694077 /* ggml-vulkan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-vulkan.h"; sourceTree = "<group>"; };
+		781DA67B2E0D128700694077 /* gguf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gguf.h; sourceTree = "<group>"; };
+		781DA67C2E0D128700694077 /* libggml.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libggml.dylib; sourceTree = "<group>"; };
+		781DA67D2E0D128700694077 /* libggml-base.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-base.dylib"; sourceTree = "<group>"; };
+		781DA67E2E0D128700694077 /* libggml-blas.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-blas.dylib"; sourceTree = "<group>"; };
+		781DA67F2E0D128700694077 /* libggml-cpu.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-cpu.dylib"; sourceTree = "<group>"; };
+		781DA6802E0D128700694077 /* libggml-metal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-metal.dylib"; sourceTree = "<group>"; };
+		781DA6812E0D128700694077 /* libllama.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libllama.dylib; sourceTree = "<group>"; };
+		781DA6822E0D128700694077 /* llama.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = llama.h; sourceTree = "<group>"; };
+		781DA6832E0D128700694077 /* llama-cpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "llama-cpp.h"; sourceTree = "<group>"; };
+		781DA6852E0D128700694077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		781DA6862E0D128700694077 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		781DA6872E0D128700694077 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		781DA6882E0D128700694077 /* llama_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = llama_bridge.h; sourceTree = "<group>"; };
+		781DA6892E0D128700694077 /* llama_bridge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = llama_bridge.c; sourceTree = "<group>"; };
+		781DA68A2E0D128700694077 /* llama_bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = llama_bridging.h; sourceTree = "<group>"; };
+		781DA68B2E0D128700694077 /* LlamaWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlamaWrapper.swift; sourceTree = "<group>"; };
+		781DA68C2E0D128700694077 /* LLMtestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMtestApp.swift; sourceTree = "<group>"; };
+		781DA68D2E0D128700694077 /* tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"; sourceTree = "<group>"; };
+		781DA6912E0D129000694077 /* libggml-base.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-base.dylib"; sourceTree = "<group>"; };
+		781DA6922E0D129000694077 /* libggml-blas.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-blas.dylib"; sourceTree = "<group>"; };
+		781DA6932E0D129000694077 /* libggml-cpu.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-cpu.dylib"; sourceTree = "<group>"; };
+		781DA6942E0D129000694077 /* libggml-metal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-metal.dylib"; sourceTree = "<group>"; };
+		781DA6952E0D129000694077 /* libllama.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libllama.dylib; sourceTree = "<group>"; };
+		784144212E0C3C26005F57CE /* LLMtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLMtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7841442E2E0C3C28005F57CE /* LLMtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLMtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		784144382E0C3C28005F57CE /* LLMtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLMtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		784144232E0C3C26005F57CE /* LLMtest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LLMtest;
+			sourceTree = "<group>";
+		};
+		784144312E0C3C28005F57CE /* LLMtestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LLMtestTests;
+			sourceTree = "<group>";
+		};
+		7841443B2E0C3C28005F57CE /* LLMtestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LLMtestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7841441E2E0C3C26005F57CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7841442B2E0C3C28005F57CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784144352E0C3C28005F57CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		781DA66B2E0D128700694077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				781DA68E2E0D128700694077 /* LLMtest */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		781DA6842E0D128700694077 /* llama */ = {
+			isa = PBXGroup;
+			children = (
+				781DA66C2E0D128700694077 /* ggml.h */,
+				781DA66D2E0D128700694077 /* ggml-alloc.h */,
+				781DA66E2E0D128700694077 /* ggml-backend.h */,
+				781DA66F2E0D128700694077 /* ggml-blas.h */,
+				781DA6702E0D128700694077 /* ggml-cann.h */,
+				781DA6712E0D128700694077 /* ggml-cpp.h */,
+				781DA6722E0D128700694077 /* ggml-cpu.h */,
+				781DA6732E0D128700694077 /* ggml-cuda.h */,
+				781DA6742E0D128700694077 /* ggml-kompute.h */,
+				781DA6752E0D128700694077 /* ggml-metal.h */,
+				781DA6762E0D128700694077 /* ggml-opencl.h */,
+				781DA6772E0D128700694077 /* ggml-opt.h */,
+				781DA6782E0D128700694077 /* ggml-rpc.h */,
+				781DA6792E0D128700694077 /* ggml-sycl.h */,
+				781DA67A2E0D128700694077 /* ggml-vulkan.h */,
+				781DA67B2E0D128700694077 /* gguf.h */,
+				781DA67C2E0D128700694077 /* libggml.dylib */,
+				781DA67D2E0D128700694077 /* libggml-base.dylib */,
+				781DA67E2E0D128700694077 /* libggml-blas.dylib */,
+				781DA67F2E0D128700694077 /* libggml-cpu.dylib */,
+				781DA6802E0D128700694077 /* libggml-metal.dylib */,
+				781DA6812E0D128700694077 /* libllama.dylib */,
+				781DA6822E0D128700694077 /* llama.h */,
+				781DA6832E0D128700694077 /* llama-cpp.h */,
+			);
+			path = llama;
+			sourceTree = "<group>";
+		};
+		781DA68E2E0D128700694077 /* LLMtest */ = {
+			isa = PBXGroup;
+			children = (
+				781DA6842E0D128700694077 /* llama */,
+				781DA6962E0D129000694077 /* llama_ios */,
+				781DA6852E0D128700694077 /* Assets.xcassets */,
+				781DA6862E0D128700694077 /* Config.swift */,
+				781DA6872E0D128700694077 /* ContentView.swift */,
+				781DA6882E0D128700694077 /* llama_bridge.h */,
+				781DA6892E0D128700694077 /* llama_bridge.c */,
+				781DA68A2E0D128700694077 /* llama_bridging.h */,
+				781DA68B2E0D128700694077 /* LlamaWrapper.swift */,
+				781DA68C2E0D128700694077 /* LLMtestApp.swift */,
+				781DA68D2E0D128700694077 /* tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf */,
+			);
+			path = LLMtest;
+			sourceTree = "<group>";
+		};
+		781DA6962E0D129000694077 /* llama_ios */ = {
+			isa = PBXGroup;
+			children = (
+				781DA6912E0D129000694077 /* libggml-base.dylib */,
+				781DA6922E0D129000694077 /* libggml-blas.dylib */,
+				781DA6932E0D129000694077 /* libggml-cpu.dylib */,
+				781DA6942E0D129000694077 /* libggml-metal.dylib */,
+				781DA6952E0D129000694077 /* libllama.dylib */,
+			);
+			path = llama_ios;
+			sourceTree = "<group>";
+		};
+		784144182E0C3C26005F57CE = {
+			isa = PBXGroup;
+			children = (
+				784144232E0C3C26005F57CE /* LLMtest */,
+				784144312E0C3C28005F57CE /* LLMtestTests */,
+				7841443B2E0C3C28005F57CE /* LLMtestUITests */,
+				781DA66B2E0D128700694077 /* Frameworks */,
+				784144222E0C3C26005F57CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		784144222E0C3C26005F57CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784144212E0C3C26005F57CE /* LLMtest.app */,
+				7841442E2E0C3C28005F57CE /* LLMtestTests.xctest */,
+				784144382E0C3C28005F57CE /* LLMtestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		784144202E0C3C26005F57CE /* LLMtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784144422E0C3C28005F57CE /* Build configuration list for PBXNativeTarget "LLMtest" */;
+			buildPhases = (
+				7841441D2E0C3C26005F57CE /* Sources */,
+				7841441E2E0C3C26005F57CE /* Frameworks */,
+				7841441F2E0C3C26005F57CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				784144232E0C3C26005F57CE /* LLMtest */,
+			);
+			name = LLMtest;
+			packageProductDependencies = (
+			);
+			productName = LLMtest;
+			productReference = 784144212E0C3C26005F57CE /* LLMtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7841442D2E0C3C28005F57CE /* LLMtestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784144452E0C3C28005F57CE /* Build configuration list for PBXNativeTarget "LLMtestTests" */;
+			buildPhases = (
+				7841442A2E0C3C28005F57CE /* Sources */,
+				7841442B2E0C3C28005F57CE /* Frameworks */,
+				7841442C2E0C3C28005F57CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784144302E0C3C28005F57CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				784144312E0C3C28005F57CE /* LLMtestTests */,
+			);
+			name = LLMtestTests;
+			packageProductDependencies = (
+			);
+			productName = LLMtestTests;
+			productReference = 7841442E2E0C3C28005F57CE /* LLMtestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		784144372E0C3C28005F57CE /* LLMtestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784144482E0C3C28005F57CE /* Build configuration list for PBXNativeTarget "LLMtestUITests" */;
+			buildPhases = (
+				784144342E0C3C28005F57CE /* Sources */,
+				784144352E0C3C28005F57CE /* Frameworks */,
+				784144362E0C3C28005F57CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7841443A2E0C3C28005F57CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7841443B2E0C3C28005F57CE /* LLMtestUITests */,
+			);
+			name = LLMtestUITests;
+			packageProductDependencies = (
+			);
+			productName = LLMtestUITests;
+			productReference = 784144382E0C3C28005F57CE /* LLMtestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		784144192E0C3C26005F57CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					784144202E0C3C26005F57CE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					7841442D2E0C3C28005F57CE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 784144202E0C3C26005F57CE;
+					};
+					784144372E0C3C28005F57CE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 784144202E0C3C26005F57CE;
+					};
+				};
+			};
+			buildConfigurationList = 7841441C2E0C3C26005F57CE /* Build configuration list for PBXProject "LLMtest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 784144182E0C3C26005F57CE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 784144222E0C3C26005F57CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				784144202E0C3C26005F57CE /* LLMtest */,
+				7841442D2E0C3C28005F57CE /* LLMtestTests */,
+				784144372E0C3C28005F57CE /* LLMtestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7841441F2E0C3C26005F57CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7841442C2E0C3C28005F57CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784144362E0C3C28005F57CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7841441D2E0C3C26005F57CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7841442A2E0C3C28005F57CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784144342E0C3C28005F57CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		784144302E0C3C28005F57CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784144202E0C3C26005F57CE /* LLMtest */;
+			targetProxy = 7841442F2E0C3C28005F57CE /* PBXContainerItemProxy */;
+		};
+		7841443A2E0C3C28005F57CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784144202E0C3C26005F57CE /* LLMtest */;
+			targetProxy = 784144392E0C3C28005F57CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		784144402E0C3C28005F57CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DM9AR8J37N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		784144412E0C3C28005F57CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DM9AR8J37N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		784144432E0C3C28005F57CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				"DEAD_CODE_STRIPPING[sdk=iphone*]" = YES;
+				DEVELOPMENT_TEAM = DM9AR8J37N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphone*]" = "$(PROJECT_DIR)/LLMtest/llama_ios";
+				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = "$(PROJECT_DIR)/LLMtest/llama";
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[sdk=iphone*]" = (
+				);
+				"OTHER_LDFLAGS[sdk=macosx*]" = (
+					"-lllama",
+					"-lggml",
+					"-lggml-base",
+					"-lggml-cpu",
+					"-lggml-blas",
+					"-lggml-metal",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cartergregg.LLMtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=iphone*]" = "$(SRCROOT)/LLMtest/llama_bridging.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=macosx*]" = "$(SRCROOT)/LLMtest/llama_bridging.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		784144442E0C3C28005F57CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				"DEAD_CODE_STRIPPING[sdk=iphone*]" = YES;
+				DEVELOPMENT_TEAM = DM9AR8J37N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphone*]" = "$(PROJECT_DIR)/LLMtest/llama_ios";
+				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = "$(PROJECT_DIR)/LLMtest/llama";
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[sdk=iphone*]" = (
+				);
+				"OTHER_LDFLAGS[sdk=macosx*]" = (
+					"-lllama",
+					"-lggml",
+					"-lggml-base",
+					"-lggml-cpu",
+					"-lggml-blas",
+					"-lggml-metal",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cartergregg.LLMtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=iphone*]" = "$(SRCROOT)/LLMtest/llama_bridging.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=macosx*]" = "$(SRCROOT)/LLMtest/llama_bridging.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		784144462E0C3C28005F57CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM9AR8J37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cartergregg.LLMtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLMtest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LLMtest";
+			};
+			name = Debug;
+		};
+		784144472E0C3C28005F57CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM9AR8J37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cartergregg.LLMtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLMtest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LLMtest";
+			};
+			name = Release;
+		};
+		784144492E0C3C28005F57CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM9AR8J37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cartergregg.LLMtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLMtest;
+			};
+			name = Debug;
+		};
+		7841444A2E0C3C28005F57CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM9AR8J37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cartergregg.LLMtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLMtest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7841441C2E0C3C26005F57CE /* Build configuration list for PBXProject "LLMtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784144402E0C3C28005F57CE /* Debug */,
+				784144412E0C3C28005F57CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784144422E0C3C28005F57CE /* Build configuration list for PBXNativeTarget "LLMtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784144432E0C3C28005F57CE /* Debug */,
+				784144442E0C3C28005F57CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784144452E0C3C28005F57CE /* Build configuration list for PBXNativeTarget "LLMtestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784144462E0C3C28005F57CE /* Debug */,
+				784144472E0C3C28005F57CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784144482E0C3C28005F57CE /* Build configuration list for PBXNativeTarget "LLMtestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784144492E0C3C28005F57CE /* Debug */,
+				7841444A2E0C3C28005F57CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 784144192E0C3C26005F57CE /* Project object */;
+}
