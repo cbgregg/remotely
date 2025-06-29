@@ -883,10 +883,11 @@ class ChatViewModel: ObservableObject {
                 throw URLError(.zeroByteResource)
             }
             
-            // Validate GGUF header
-            let fileData = try Data(contentsOf: tempURL)
-            let header = fileData.prefix(4)
-            guard header == Data([0x47, 0x47, 0x55, 0x46]) else { // "GGUF" magic bytes
+            // Validate GGUF header without loading entire file
+            let handle = try FileHandle(forReadingFrom: tempURL)
+            defer { try? handle.close() }
+            let headerData = try handle.read(upToCount: 4) ?? Data()
+            guard headerData == Data([0x47, 0x47, 0x55, 0x46]) else { // "GGUF" magic bytes
                 throw URLError(.cannotParseResponse)
             }
             
