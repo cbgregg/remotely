@@ -73,6 +73,12 @@ The app supports GGUF format models. Tested with:
    xcodebuild -configuration Release
    ```
 
+   On macOS you can also run the convenience script
+   `scripts/build_ios_libs.sh` from the repository root. It will clone
+   `llama.cpp` (if needed), build the libraries for device and simulator, and
+   place the resulting universal dylibs inside `LLMtest/llama_ios` so Xcode can
+   link them when targeting iOS.
+
 4. **Download models:**
    - Place GGUF model files in the project root
    - Recommended: TinyLlama for testing (smaller size)
